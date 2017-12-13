@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Method5";
+}
+
+<h2>方法五:&ensp;Render Partial View Using jQuery</h2>
+
+<div id="partialviews"style="border-style:dotted">
+</div>
+   
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/jscript">
+        $(document).ready(function () {
+            $("#partialviews").load('/Home/M5_Partial_View');
+        });
+    </script>
